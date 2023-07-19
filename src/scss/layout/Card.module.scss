@@ -57,4 +57,23 @@
 			filter: brightness(0.8);
 		}
 	}
+
+	@media screen and (max-width: 650px) {
+		width: 343px;
+		padding: 40px 0px 62px 0px;
+
+		&Title {
+			font-size: 1.15rem;
+		}
+
+		&Content {
+			display: flex;
+			padding: 1.4rem 1.9rem;
+
+			p {
+				font-size: 2.4rem;
+				line-height: 3.3rem;
+			}
+		}
+	}
 }
